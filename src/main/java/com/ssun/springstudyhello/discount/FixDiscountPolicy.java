@@ -2,7 +2,9 @@ package com.ssun.springstudyhello.discount;
 
 import com.ssun.springstudyhello.member.Grade;
 import com.ssun.springstudyhello.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class FixDiscountPolicy implements DiscountPolicy {
 
     private int discountFixAccount = 1000;
